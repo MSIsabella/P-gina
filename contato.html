@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head> 
+		<meta charset = "UTF-8">
+		<meta name = "viewport" content = "width = device-width">
+		<title> Página pessoal de Isabella </title>
+
+		<link rel = "stylesheet" href = "reset.css">
+		<link rel = "stylesheet" href = "style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header class="cabeçalho">
+			<div>
+				<h1><img class="logo" src="imagens/logo.png"></h1>
+
+				<nav>
+					<ul>
+						<li><a href = "home.html">Home</a></li>
+						<li><a href = "sobre.html">Sobre</a></li>
+						<li><a href = "cursos.html">Cursos</a></li>
+						<li><a href = "contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<div class="redes-sociais">
+				<h1> Clique para ser redirecionado à página</h1>
+				<ul>
+					<li>
+						<a href="https://www.instagram.com/_isamends/"><img class="icon-instagram" src="imagens/instagram.png" alt="ícone-instagram"> @_isamends</a>	
+					</li>	
+					<li>
+						<a><img class="icon-email" src="imagens/email.png" alt="ícone-email"> isaa.mendes11@gmail.com</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/isabella-mendes-de-sousa-573462227"><img class="icon-linkedin" src="imagens/linkedin.png" alt="ícone-linkedin"> Isabella Mendes de Sousa</a>
+					</li>
+					<li>
+						<a href="https://github.com/MSIsabella"><img class="icon-github" src="imagens/github.png" alt="ícone-github"> @MSIsabella</a>
+					</li>
+				</ul>
+			</div>
+
+			<h1> Para enviar uma mensagem preencha o formulário abaixo e logo retornaremos!</h1>
+			<form>
+				<label for="nomesobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXX-XXXX">
+
+				<label for="mensagem"></label>
+				<textarea cols="60" rows="10" id="mensagem" class="input-padrao" required placeholder="Digite sua mensagem aqui :)"></textarea>
+
+				<fieldset>
+					<legend> Como prefere que entremos em contato com você?</legend>
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatasapp</label>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+				</fieldset>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+
+			
+		</main>
+
+		<footer class="rodape-contato">
+			<img class = logobranco src="imagens/logobranco.png" alt="Logo branco IMS">
+
+		</footer>
+
+	</body>
+</html>
