@@ -173,6 +173,10 @@ h3 {
 	transform: scale(1,5);
 }
 
+.titulo-strengths {
+	margin-top: 50px;
+}
+
 .img-strengths {
 	width: 370px;
 	margin: 10px 20px 10px 10px;
