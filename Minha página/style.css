@@ -1,0 +1,316 @@
+.cabeçalho {
+	align-items: center;
+    display: flex;
+    justify-content: center;
+	background: #F08080;
+	padding: 50px 0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+	margin: 10px;
+	position: absolute;
+	top: 55px;
+	right: 10px;
+}
+
+
+nav li {
+	display: inline;
+	font-size: 20px;
+	padding: 50px;
+}
+
+
+nav a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	transition: 0.4s;
+}
+
+nav a:hover {
+	color: #FFDEAD;
+	font-weight: bold;
+	transform: scale(1.2);
+}
+
+.logo {
+
+	width: 30%;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.logobranco {
+	width: 100px;
+
+}
+
+main p {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 20px 0 20px 30px;
+}
+
+main h1:before {
+	content: "➺";
+}
+
+h1, h2 {
+	font-size: 19px;
+	line-height: 1.5;
+	padding: 5px 10px;
+}
+
+h3 {
+	font-size: 17px;
+	padding: 10px;
+}
+
+/*CSS Home*/
+
+.fundo {
+	width: 100%;
+}
+
+.conteudo {
+	background: linear-gradient(#b3b2b2 , #ffffff 99%);
+}
+
+.corpo-home h1 strong {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.o-site h1 em {
+	font-style: italic;
+	padding: 2px 5px;
+	background: #FFDEAD;
+	font-size: 17px;
+}
+
+.img-o-site {
+	width: 200px;
+	margin: 0 20px 0  70px;
+	float: right;
+}
+
+.o-site, .informaçoes-adicionais {
+	text-align: justify;
+	padding: 20px;
+}
+
+.informaçoes-adicionais {
+	clear: left;
+}
+
+
+.img-front {
+	width: 150px;
+	padding-bottom: 30px;
+	margin-right: 20px;
+	float: left;
+}
+
+
+/*CSS sobre*/
+
+.paragrafo {
+	text-indent: 17px;
+}
+
+.corpo-sobre {
+	text-align: justify;
+	padding: 12px;
+	margin: 12px 0;
+}
+
+.minha-foto {
+	width: 200px;
+	margin: 0 20px 20px 45px;
+	float: right;
+}
+
+.corpo-sobre h2 strong {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.corpo-sobre h2 em {
+	font-style: italic;
+	padding: 2px 5px;
+	background: #FFDEAD;
+	font-size: 20px;
+	transition: 0,5s;
+}
+
+.corpo-sobre h2 em:hover {
+	font-weight: bold;
+	transform: scale(1,5);
+}
+
+.corpo-sobre h1 strong {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.corpo-sobre h1 em {
+	font-style: italic;
+	padding: 2px 5px;
+	background: #FFDEAD;
+	font-size: 20px;
+	transition: 0,5s;
+}
+
+.corpo-sobre h1 em:hover {
+	font-weight: bold;
+	transform: scale(1,5);
+}
+
+.titulo-strengths {
+	margin-top: 50px;
+}
+
+.img-strengths {
+	width: 370px;
+	margin: 10px 20px 10px 10px;
+	float: left;
+}
+
+
+/*CSS cursos*/
+
+.formaçao-academica h1 strong {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.formaçao-academica h2 strong {
+	font-weight: bold;
+}
+
+.certificados a {
+	text-decoration: none;
+	color: black;
+}
+
+.certificados a:hover {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.certificados h2:before {
+	content: "‣";
+}
+
+.certificados h3 {
+	background: #FFDEAD;
+}
+
+.formaçao-academica img {
+	float: right;
+	width: 200px;
+	margin-right: 20px;
+}
+
+.lingua {
+	padding: 20px;
+	background: #FFFAFA;
+}
+
+.certificados, .educaçao-basica {
+	padding: 20px;
+}
+
+
+/*CSS contato*/
+div a {
+	text-decoration: none;
+	color: black;
+}
+
+div h1 {
+	margin-right: 50px;
+}
+
+form {
+	margin: 15px;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 15px;
+	padding: 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 10px;
+	padding: 15px;
+	width: 50%;
+	font-size: 15px;
+	border-color: #F08080;
+	border-radius: 35px;
+	border-width: 2px;
+}
+
+.enviar {
+	width: 30%;
+	margin: 12px 150px;
+	padding: 12px;
+	background: #FFDEAD;
+	border-radius: 35px;
+	cursor: pointer;
+	transition: 1s;
+	font-size: 15px;
+}
+
+.enviar:hover {
+	transform: scale(1.2);
+}
+
+.redes-sociais {
+	height: 100vh;
+	float: right;
+	background: #FFF5EE;
+	padding-bottom: 140px;
+	padding-left: 20px;
+}
+
+.icon-instagram, .icon-email, .icon-linkedin, .icon-github {
+	width: 70px;
+	display: inline-block;
+	transition: 1s;
+	text-align: justify;
+}
+
+.icon-instagram:hover, .icon-email:hover, .icon-linkedin:hover, .icon-github:hover {
+	transform: scale(1.2);
+}
+
+.redes-sociais li {
+	font-size: 15px;
+	padding: 25px;
+}
+
+
+/*CSS rodapé*/
+footer {
+	background: url(imagens/bg.jpg);
+	padding: 40px;
+
+}
+
+.rodape-home {
+	clear: left;
+}
+
+.rodape-contato {
+	clear: right;
+}
